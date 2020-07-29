@@ -1,24 +1,23 @@
-# Temporizador de Contagem Regressiva
-Temporizador de contagem regressiva de eventos. Feito no VSCode usando HTML5, CSS3 e Javascript.
+# Coutdown Timer
 
-## Pré-visualização
+## Preview
 <p align="center">
   <img src="https://user-images.githubusercontent.com/67754744/88847145-002a0780-d1bd-11ea-899b-ea2cd7e66f83.gif">
 </p>
   
-## Recursos
+## Features
 
-- [x] O usuário pode ver uma caixa de entrada de evento contendo um campo de nome de evento, um campo de data, um horário opcional e um botão 'Iniciar'.
-- [x] O usuário pode definir o evento digitando seu nome, a data em que está programado para ocorrer e um horário opcional do evento. Se a hora for omitida, presume-se que seja à meia-noite na data do evento no fuso horário local.
-- [x] O usuário pode ver uma mensagem de aviso se o nome do evento estiver em branco.
-- [x] O usuário pode ver uma mensagem de aviso se a data ou hora do evento forem inseridas incorretamente.
-- [x] O usuário pode ver uma mensagem de aviso se o tempo até os dados do evento e o tempo que foram inseridos excederem a precisão do temporizador de contagem regressiva.
-- [x] O usuário pode clicar no botão 'Iniciar' para ver o cronômetro começar a exibir os dias, horas, minutos e segundos até que o evento ocorra.
-- [x] O usuário pode ver os elementos no temporizador decrescente automaticamente. Por exemplo, quando a contagem de segundos restantes atingir 0, a contagem de minutos restantes diminuirá em 1 e os segundos começarão a contagem regressiva a partir de 59. Essa progressão deve ocorrer desde segundos até a posição de dias restantes na exibição da contagem regressiva.
+- [x] User can see an event input box containing an event name field, an date field, an optional time, and a 'Start' button.
+- [x] User can define the event by entering its name, the date it is scheduled to take place, and an optional time of the event. If the time is omitted it is assumed to be at Midnight on the event date in the local time zone.
+- [x] User can see a warning message if the event name is blank.
+- [x] User can see a warning message if the event date or time are incorrectly entered.
+- [x] User can see a warning message if the time until the event data and time that has been entered would overflow the precision of the countdown timer.
+- [x] User can click on the 'Start' button to see the countdown timer start displaying the days, hours, minutes, and seconds until the event takes place.
+- [x] User can see the elements in the countdown timer automatically decrement. For example, when the remaining seconds count reaches 0 the remaining minutes count will decrement by 1 and the seconds will start to countdown from 59. This progression must take place from seconds all the way up to the remaining days position in countdown display.
 
-## Recursos Bônus
+## Bonus features
 
-- [x] O usuário pode salvar o evento para que ele persista nas sessões.
-- [x] O usuário pode ver um alerta quando o evento é atingido.
-- [x] O usuário pode especificar mais de um evento.
-- [x] O usuário pode ver os temporizadores de contagem regressiva para cada evento que foi definido.
+- [x] User can save the event so that it persists across sessions
+- [x] User can see an alert when the event is reached
+- [x] User can specify more than one event.
+- [x] User can see a countdown timers for each event that has been defined.
