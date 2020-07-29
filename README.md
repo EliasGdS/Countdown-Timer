@@ -1,4 +1,4 @@
-# CoutdownTimer
+# Temporizador de Contagem Regressiva
 Temporizador de contagem regressiva de eventos. Feito no VSCode usando HTML5, CSS3 e Javascript.
 
 ## Pré-visualização
