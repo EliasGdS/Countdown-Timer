@@ -1,6 +1,6 @@
 # Coutdown Timer
 
-Countdown timer made in HTML5, CSS and Javascript.
+Countdown timer done in HTML5, CSS and Javascript.
 
 CodePen: https://codepen.io/eliasgds/pen/xxZoqVW
 
