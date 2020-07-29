@@ -2,7 +2,10 @@
 Temporizador de contagem regressiva de eventos.
 
 ## Pré-visualização
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/67754744/88847145-002a0780-d1bd-11ea-899b-ea2cd7e66f83.gif">
+</p>
+  
 ## Recursos
 
 - [x] O usuário pode ver uma caixa de entrada de evento contendo um campo de nome de evento, um campo de data, um horário opcional e um botão 'Iniciar'.
