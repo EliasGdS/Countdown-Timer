@@ -1,9 +1,13 @@
 # Coutdown Timer
 
+Countdown timer made in HTML5, CSS and Javascript.
+
+CodePen: https://codepen.io/eliasgds/pen/xxZoqVW
+
 ## Preview
 <p align="center">
   <img src="https://user-images.githubusercontent.com/67754744/88847145-002a0780-d1bd-11ea-899b-ea2cd7e66f83.gif">
-</p>
+</p> 
   
 ## Features
 
