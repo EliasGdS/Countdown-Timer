@@ -1,0 +1,126 @@
+#html, body {
+    background-color: #070D0B;
+}
+
+#app {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title_timer {
+    font-family: monospace;
+    font-size: 20pt;
+    text-align: center;
+    color: #D7D7D9;
+}
+
+/* Timer */
+
+#timer {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px 8px 8px;
+    margin-top: 20px;
+    background-color: #404040;
+}
+
+#event {
+    width: 268px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#event:focus::-webkit-input-placeholder {
+    visibility: hidden;
+}
+
+#timer input {
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f3f3f3;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#date {
+    padding-left: 8px;
+}
+
+#time {
+    padding-left: 8px;
+}
+
+#set_timer {
+    height: 22px;
+    float: right;
+}
+
+#set_timer:hover {
+    background-color: #A7D175;
+}
+
+/* Saved Timers */
+
+#saved_timers {
+    width: 95%;
+    margin-top: 40px;
+}
+
+#saved_timers input {
+    border: none;
+    margin: 0;
+    font-family: monospace;
+    font-size: 12pt;
+    text-align: center;
+}
+
+#title_saved_timers {
+    font-family: monospace;
+    color: #D7D7D9;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#timers {
+    display: flex;
+    margin: 0px 3px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+label {
+    font-family: monospace;
+    font-size: 12pt;
+}
+
+#timers div {
+    margin: 3px;
+    background-color: #404040;
+    color: white;
+}
+
+.btn_delete {
+    width: 20px;
+    height: 20px;
+    color: rgb(160, 160, 160);
+    position: relative;
+    float: right;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.btn_delete:hover {
+    background-color: rgb(156, 1, 1);
+    border-radius: 50%;
+    border: 1px solide black;
+    color: white;
+}

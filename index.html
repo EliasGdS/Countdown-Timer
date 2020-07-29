@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="app">
+
+        <div id="title_timer">
+            <h1>Temporizador Regressivo</h1>
+        </div>
+
+        <div id="timer">
+            <input type="text" id="event" placeholder="Nome do Temporizador" required>
+            <input type="date" id="date" required>
+            <input type="time" id="time">
+            <input type="button" id="set_timer" value="Salvar" onclick="btn_start()">
+        </div>
+
+        <div id="saved_timers">
+
+            <div id="title_saved_timers">
+                <h2>Temporizadores Salvos</h2>
+            </div>
+
+            <div id="timers">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script lang="javascript" src="main.js"></script>
+
+</body>
+</html>
