@@ -1,5 +1,5 @@
 # CoutdownTimer
-Temporizador de contagem regressiva de eventos.
+Temporizador de contagem regressiva de eventos. Feito no VSCode usando HTML5, CSS3 e Javascript.
 
 ## Pré-visualização
 <p align="center">
