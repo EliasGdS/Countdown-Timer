@@ -6,7 +6,7 @@ CodePen: https://codepen.io/eliasgds/pen/xxZoqVW
 
 ## Preview
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/67754744/88847145-002a0780-d1bd-11ea-899b-ea2cd7e66f83.gif">
+  <img src="https://user-images.githubusercontent.com/67754744/88970968-9deb0880-d289-11ea-9d43-91cca7bd5bd5.png">
 </p> 
   
 ## Features
