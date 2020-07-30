@@ -109,7 +109,6 @@ function createCoutdownTimer(event) {
     let new_div = document.createElement("div");
     new_div.setAttribute("id", event)
     new_div.style.border = "1px solid black";
-    new_div.style.borderRadius = "10px";
     new_div.style.padding = "8px";
 
     let h3 = document.createElement("h3");
@@ -131,7 +130,7 @@ function createCoutdownTimer(event) {
     input_days_ramaining.setAttribute("readonly", "");
     input_days_ramaining.style.width = "35px";
     input_days_ramaining.style.marginRight = "2px";
-    input_days_ramaining.style.color = "white";
+    input_days_ramaining.style.color = "black";
     input_days_ramaining.style.outline = "none";
     input_days_ramaining.style.backgroundColor = "transparent";
 
@@ -145,7 +144,7 @@ function createCoutdownTimer(event) {
     input_hours_ramaining.setAttribute("readonly", "");
     input_hours_ramaining.style.width = "17px";
     input_hours_ramaining.style.marginRight = "2px";
-    input_hours_ramaining.style.color = "white";
+    input_hours_ramaining.style.color = "black";
     input_hours_ramaining.style.outline = "none";
     input_hours_ramaining.style.backgroundColor = "transparent";
 
@@ -159,7 +158,7 @@ function createCoutdownTimer(event) {
     input_minutes_ramaining.setAttribute("readonly", "");
     input_minutes_ramaining.style.width = "17px";
     input_minutes_ramaining.style.marginRight = "2px";
-    input_minutes_ramaining.style.color = "white";
+    input_minutes_ramaining.style.color = "black";
     input_minutes_ramaining.style.outline = "none";
     input_minutes_ramaining.style.backgroundColor = "transparent";
 
@@ -173,7 +172,7 @@ function createCoutdownTimer(event) {
     input_seconds_ramaining.setAttribute("readonly", "");
     input_seconds_ramaining.style.width = "17px";
     input_seconds_ramaining.style.marginRight = "2px";
-    input_seconds_ramaining.style.color = "white";
+    input_seconds_ramaining.style.color = "black";
     input_seconds_ramaining.style.outline = "none";
     input_seconds_ramaining.style.backgroundColor = "transparent";
 
