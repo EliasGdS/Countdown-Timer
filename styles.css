@@ -1,5 +1,7 @@
 #html, body {
-    background-color: #070D0B;
+    padding: 0;
+    margin: 0;
+    background-image: url('https://picserio.com/data/out/381/time-wallpapers_5872490.jpg');
 }
 
 #app {
@@ -11,20 +13,19 @@
 }
 
 #title_timer {
-    font-family: monospace;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20pt;
     text-align: center;
-    color: #D7D7D9;
+    color: whitesmoke;
 }
 
 /* Timer */
 
 #timer {
     border: 1px solid black;
-    border-radius: 10px;
     padding: 12px 8px 8px;
     margin-top: 20px;
-    background-color: #404040;
+    background-color: rgba(255, 255, 255, 0.178);
 }
 
 #event {
@@ -40,9 +41,8 @@
 
 #timer input {
     border: 1px solid black;
-    border-radius: 10px;
     outline: none;
-    background-color: #f3f3f3;
+    background-color: white;
 }
 
 input[type=date]::-webkit-calendar-picker-indicator {
@@ -64,7 +64,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 #set_timer:hover {
-    background-color: #A7D175;
+    background-color: rgb(209, 209, 209);
 }
 
 /* Saved Timers */
@@ -83,8 +83,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 #title_saved_timers {
-    font-family: monospace;
-    color: #D7D7D9;
+    font-family: Times;
+    color: whitesmoke;
     margin-left: 5px;
     text-align: center;
 }
@@ -103,24 +103,49 @@ label {
 
 #timers div {
     margin: 3px;
-    background-color: #404040;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
 }
 
 .btn_delete {
     width: 20px;
     height: 20px;
-    color: rgb(160, 160, 160);
+    color: rgba(22, 22, 22, 0.815);
     position: relative;
     float: right;
     outline: none;
     background-color: transparent;
-    padding: 0;
+    padding: 0px;
+    text-align: center;
 }
 
 .btn_delete:hover {
     background-color: rgb(156, 1, 1);
-    border-radius: 50%;
     border: 1px solide black;
     color: white;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    background-color: #0D0D0D;
+    bottom: 0%;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+
+footer p {
+    transform: translate(0%, -60%);
+    font-family: monospace;
+    font-size: 12pt;
+    text-align: center;
+}
+
+footer p a img {
+    transform: translate(-7%, 20%);
+    filter: invert(100%);
 }
